@@ -1,5 +1,7 @@
 package com.example.demo.json
 
+import com.example.demo.json.builder.JsonBuilder
+import com.example.demo.json.builder.JsonData
 import org.springframework.boot.test.context.SpringBootTest
 import kotlin.test.Test
 

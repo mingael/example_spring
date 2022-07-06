@@ -1,11 +1,15 @@
-package com.example.demo
+package com.example.demo.sendLoop
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import java.time.Clock
+import java.time.LocalDateTime
+
 
 @SpringBootApplication
-class DemoApplication
+class SendLoopApplication
 
 fun main(args: Array<String>) {
-	runApplication<DemoApplication>(*args)
+    runApplication<SendLoopApplication>(*args)
 }
+

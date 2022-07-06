@@ -1,4 +1,4 @@
-package com.example.demo.json
+package com.example.demo.json.builder
 
 import kotlin.reflect.KProperty
 

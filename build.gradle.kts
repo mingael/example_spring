@@ -53,6 +53,9 @@ dependencies {
 	kapt("com.querydsl:querydsl-apt:$querydslVersion:jpa")
 	kapt("org.springframework.boot:spring-boot-configuration-processor")
 
+	// date time
+	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.3.3")
+
 	// Dev
 	testImplementation(kotlin("test"))
 	runtimeOnly("com.h2database:h2")
